@@ -15,26 +15,26 @@ if (!defined('ABSPATH')) {
 define('SEO_POST_GENERATOR_API_URL', 'https://api.x.ai/v1/chat/completions');
 define('SEO_POST_GENERATOR_KYC_YEAR', 2025);
 define('SEO_POST_GENERATOR_TRANSIENT_PREFIX', 'seo_post_generator_');
-define('SEO_POST_GENERATOR_API_KEY', 'xai-jRASYd1M7diMMHf65V1QDTsVqN7fYJPyU7v7JJH7DqBPP174nUP9t0w0kgfxvW47DK1qEeJKgv6tmGOd');
+define('SEO_POST_GENERATOR_API_KEY', 'YOUR_API_KEY');
 
 // Load sensitive data from wp-config.php
 if (!defined('SEO_POST_GENERATOR_API_KEY')) {
-    define('SEO_POST_GENERATOR_API_KEY', 'xai-jRASYd1M7diMMHf65V1QDTsVqN7fYJPyU7v7JJH7DqBPP174nUP9t0w0kgfxvW47DK1qEeJKgv6tmGOd'); // Define in wp-config.php
+    define('SEO_POST_GENERATOR_API_KEY', 'YOUR_API_KEY'); // Define in wp-config.php
 }
 if (!defined('SITE2_DB_HOST')) {
     define('SITE2_DB_HOST', 'localhost:3306'); // Define in wp-config.php
 }
 if (!defined('SITE2_DB_NAME')) {
-    define('SITE2_DB_NAME', 'systorkc_wp_d2hl4'); // Define in wp-config.php
+    define('SITE2_DB_NAME', 'YOUR_DB_NAME'); // Define in wp-config.php
 }
 if (!defined('SITE2_DB_USER')) {
-    define('SITE2_DB_USER', 'systorkc_wp_xavjc'); // Define in wp-config.php
+    define('SITE2_DB_USER', 'YOUR_DB_USER'); // Define in wp-config.php
 }
 if (!defined('SITE2_DB_PASSWORD')) {
-    define('SITE2_DB_PASSWORD', 'nPp8z25BVx#$naId'); // Define in wp-config.php
+    define('SITE2_DB_PASSWORD', 'YOUR_DB_PASSWORD'); // Define in wp-config.php
 }
 if (!defined('SITE2_DB_PREFIX')) {
-    define('SITE2_DB_PREFIX', 'nhyBTK_'); // Table prefix for Site 2
+    define('SITE2_DB_PREFIX', 'YOUR_DB_PREFIX'); // Table prefix for Site 2
 }
 
 /**
